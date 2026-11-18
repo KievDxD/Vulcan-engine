@@ -1,0 +1,52 @@
+name: VULCAN // ENGINE CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  rust-backend-and-wasm:
+    name: Rust Backend & Wasm Analytics Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust stable toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache Cargo registry & build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            backend/target
+            wasm-analytics/target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('backend/Cargo.toml', 'wasm-analytics/Cargo.toml') }}
+
+      - name: Run Backend unit & integration tests
+        run: cargo test --manifest-path backend/Cargo.toml --verbose
+
+      - name: Run Wasm analytics unit tests
+        run: cargo test --manifest-path wasm-analytics/Cargo.toml --verbose
+
+  frontend-build:
+    name: React + Vite TypeScript Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install frontend dependencies
+        run: npm --prefix frontend install --no-audit --no-fund
+
+      - name: Run TypeScript typecheck and Vite build
+        run: npm --prefix frontend run build

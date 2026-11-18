@@ -1,0 +1,14 @@
+C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/3530638aa35b2868\out\serde-3530638aa35b2868.d: C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/0fbf761367982cc5\out/private.rs
+
+C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/3530638aa35b2868\out\libserde-3530638aa35b2868.rlib: C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/0fbf761367982cc5\out/private.rs
+
+C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/3530638aa35b2868\out\libserde-3530638aa35b2868.rmeta: C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/0fbf761367982cc5\out/private.rs
+
+C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\lib.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\integer128.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\mod.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\de.rs:
+C:\Users\USER\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.229\src\private\ser.rs:
+C:\Users\USER\Downloads\Proyectos\vulcan-engine\backend\target\release\build\serde/0fbf761367982cc5\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\USER\\Downloads\\Proyectos\\vulcan-engine\\backend\\target\\release\\build\\serde/0fbf761367982cc5\\out

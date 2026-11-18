@@ -1,0 +1,13 @@
+[package]
+name = "vulcan-wasm-analytics"
+version = "1.0.0"
+edition = "2021"
+description = "WebAssembly statistical percentile & Z-Score anomaly engine for VULCAN // ENGINE"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde-wasm-bindgen = "0.6"
